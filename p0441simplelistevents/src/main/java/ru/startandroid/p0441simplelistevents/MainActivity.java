@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         lvMain.setOnScrollListener(new AbsListView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(AbsListView view, int scrollState) {
-                
+
             }
 
             @Override

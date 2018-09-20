@@ -1,19 +1,16 @@
 <resources>
     <string name="hello">Hello World, MainActivity!</string>
-    <string name="app_name">SimpleListEvents</string>
+    <string name="app_name"> Управление по SMS </string>
     <string-array name="names">
-        <item>Иван</item>
-        <item>Марья</item>
-        <item>Петр</item>
-        <item>Антон</item>
-        <item>Даша</item>
-        <item>Борис</item>
-        <item>Костя</item>
-        <item>Игорь</item>
-        <item>Анна</item>
-        <item>Денис</item>
-        <item>Вадим</item>
-        <item>Ольга</item>
-        <item>Сергей</item>
+        <item>01. Запрос баланса лицевого счета</item>
+        <item>02. Запрос состояния системы</item>
+        <item>03. Запрос координат автомобиля</item>
+        <item>04. Включить панику</item>
+        <item>05. Включить поиск на стоянке</item>
+        <item>06. Постановка на охрану</item>
+        <item>07. Снятие с охраны</item>
+        <item>08. Безопасная блокировка двигателя</item>
+        <item>09. Включить сервисный режим</item>
+        <item>10. Выключить сервисный режим</item>
     </string-array>
 </resources>
