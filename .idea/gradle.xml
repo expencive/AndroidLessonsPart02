@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mp031todolist" />
             <option value="$PROJECT_DIR$/p0401layoutinflater" />
             <option value="$PROJECT_DIR$/p0411layoutinflaterlist" />
             <option value="$PROJECT_DIR$/p0431simplelistchoice" />
