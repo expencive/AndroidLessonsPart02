@@ -5,6 +5,8 @@ import android.content.DialogInterface;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -35,22 +37,31 @@ public class MainActivity extends AppCompatActivity {
         mTaskListView = (ListView) findViewById(R.id.list_todo);
 
         updateUI();
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Пока еще не придумал как сделать", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+
+            }
+        });
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_menu, menu);
+        // TODO Auto-generated method stub
+        menu.add("Добавить задачу");
+
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_add_task:
                 final EditText taskEditText = new EditText(this);
                 AlertDialog dialog = new AlertDialog.Builder(this)
                         .setTitle("Новая задача")
-                        .setMessage("Что вы хотите сделать?")
                         .setView(taskEditText)
                         .setPositiveButton("ОК", new DialogInterface.OnClickListener() {
                             @Override
@@ -70,11 +81,7 @@ public class MainActivity extends AppCompatActivity {
                         .setNegativeButton("Отмена", null)
                         .create();
                 dialog.show();
-                return true;
-
-            default:
                 return super.onOptionsItemSelected(item);
-        }
     }
 
     public void deleteTask(View view) {
