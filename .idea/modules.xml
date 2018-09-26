@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidLessonsPart02.iml" filepath="$PROJECT_DIR$/AndroidLessonsPart02.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/k321sqlite/k321sqlite.iml" filepath="$PROJECT_DIR$/k321sqlite/k321sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/k322sqllite(alternative)/k322sqllite(alternative).iml" filepath="$PROJECT_DIR$/k322sqllite(alternative)/k322sqllite(alternative).iml" />
       <module fileurl="file://$PROJECT_DIR$/mp031todolist/mp031todolist.iml" filepath="$PROJECT_DIR$/mp031todolist/mp031todolist.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0401layoutinflater/p0401layoutinflater.iml" filepath="$PROJECT_DIR$/p0401layoutinflater/p0401layoutinflater.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0411layoutinflaterlist/p0411layoutinflaterlist.iml" filepath="$PROJECT_DIR$/p0411layoutinflaterlist/p0411layoutinflaterlist.iml" />
