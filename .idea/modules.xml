@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/p0411layoutinflaterlist/p0411layoutinflaterlist.iml" filepath="$PROJECT_DIR$/p0411layoutinflaterlist/p0411layoutinflaterlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0431simplelistchoice/p0431simplelistchoice.iml" filepath="$PROJECT_DIR$/p0431simplelistchoice/p0431simplelistchoice.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0441simplelistevents/p0441simplelistevents.iml" filepath="$PROJECT_DIR$/p0441simplelistevents/p0441simplelistevents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0481simpleadapter/p0481simpleadapter.iml" filepath="$PROJECT_DIR$/p0481simpleadapter/p0481simpleadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/p442listview/p442listview.iml" filepath="$PROJECT_DIR$/p442listview/p442listview.iml" />
     </modules>
   </component>
